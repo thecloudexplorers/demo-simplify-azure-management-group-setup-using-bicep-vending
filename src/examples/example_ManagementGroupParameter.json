@@ -4,65 +4,65 @@
   "parameters": {
     "tier0ManagementGroup": {
       "value": {
-        "id": "mg10001",
+        "id": "mg00001",
         "displayName": "DevJev NL"
       }
     },
     "tier1ManagementGroups": {
       "value": [
         {
-          "id": "mg20001",
+          "id": "mg10001",
           "displayName": "Platform",
-          "parentId": "mg10001"
+          "parentId": "mg00001"
         },
         {
-          "id": "mg20002",
+          "id": "mg10002",
           "displayName": "Landing Zones",
-          "parentId": "mg10001"
+          "parentId": "mg00001"
         }
       ]
     },
     "tier2ManagementGroups": {
       "value": [
         {
-          "id": "mg30001",
+          "id": "mg20001",
           "displayName": "Identity",
-          "parentId": "mg20001"
+          "parentId": "mg10001"
         },
         {
-          "id": "mg30002",
+          "id": "mg20002",
           "displayName": "Management",
-          "parentId": "mg20001"
+          "parentId": "mg10001"
         },
         {
-          "id": "mg30003",
+          "id": "mg20003",
           "displayName": "Connectivity",
-          "parentId": "mg20001"
+          "parentId": "mg10001"
         },
         {
-          "id": "mg30004",
+          "id": "mg20004",
           "displayName": "Corp",
-          "parentId": "mg20002"
+          "parentId": "mg10002"
         },
         {
-          "id": "mg30005",
+          "id": "mg20005",
           "displayName": "Online",
-          "parentId": "mg20002"
+          "parentId": "mg10002"
         },
         {
-          "id": "mg30008",
+          "id": "mg20008",
           "displayName": "Sandbox",
-          "parentId": "mg20002"
+          "parentId": "mg10002"
         },
         {
-          "id": "mg30009",
+          "id": "mg20009",
           "displayName": "Decommissioned",
-          "parentId": "mg20002"
+          "parentId": "mg10002"
         },
         {
-          "id": "mg30010",
+          "id": "mg20010",
           "displayName": "Quarantine",
-          "parentId": "mg20002"
+          "parentId": "mg10002"
         }
       ]
     },

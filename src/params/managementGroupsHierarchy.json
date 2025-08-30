@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "tier1ManagementGroup": {
+            "value": {}
+        },
+        "tier2ManagementGroups": {
+            "value": []
+        },
+        "tier3ManagementGroups": {
+            "value": []
+        },
+        "tier4ManagementGroups": {
+            "value": []
+        },
+        "tier5ManagementGroups": {
+            "value": []
+        },
+        "tier6ManagementGroups": {
+            "value": []
+        },
+        "RequireWritePermissionsForNewManagementGroupCreation": {
+            "value": true
+        },
+        "IdOfDefaultManagementGroupForNewSubscriptions": {
+            "value": "DONT_FORGET_TO_SET_THIS"
+        }
+    }
+}

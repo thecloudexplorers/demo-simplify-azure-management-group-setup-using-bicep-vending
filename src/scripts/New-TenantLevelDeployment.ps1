@@ -8,5 +8,6 @@ $managementGroupParams = @{
     Location              = "West Europe"
     TemplateFile          = ".\src\iac\az-patterns\managementGroupHierarchy.bicep"
     TemplateParameterFile = ".\src\examples\example_ManagementGroupParameter.json"
+    Verbose               = $true
 }
 New-AzTenantDeployment @managementGroupParams

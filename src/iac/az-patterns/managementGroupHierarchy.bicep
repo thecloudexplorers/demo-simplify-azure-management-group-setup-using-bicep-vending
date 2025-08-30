@@ -42,7 +42,7 @@ param RequireWritePermissionsForNewManagementGroupCreation bool = true
 
 var tenantRootManagementGroupId = tenant().tenantId
 
-resource tier0ManagementGroupResource 'Microsoft.Management/managementGroups@2020-02-01' = {
+resource tier0ManagementGroupResource 'Microsoft.Management/managementGroups@2023-04-01' = {
   name: tier0ManagementGroup.id
   scope: tenant()
   properties: {
